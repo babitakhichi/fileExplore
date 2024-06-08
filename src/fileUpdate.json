@@ -1,0 +1,103 @@
+import { DownCircleOutlined, FileOutlined, PictureOutlined } from "@ant-design/icons";
+
+
+
+
+   export const fileUpdate =    [
+        {
+          key: "download",
+          // icon: <DownCircleOutlined />,
+          label: "Download",
+          
+     
+            children:[{ key: "download",
+            // icon: <DownCircleOutlined />,
+            label: "Download",
+            children:[{ key: "download",
+            // icon: <DownCircleOutlined />,
+            label: "Download",
+            
+            data:[{
+              "id":1,
+              "name":"media",
+              "type":"file",
+              "url":"https://media.istockphoto.com/id/1354066820/photo/gavieiro-or-el-silencio-beach-cudillero-asturias-spain.jpg?s=612x612&w=0&k=20&c=X6Q0YT2ay8brfNjAeaK4nUqzyeR9yALH4TCIndsqtOY="
+         
+         
+            },
+           
+          {
+              "id":2,
+              "name":"my app",
+              "type":"folder",
+              "url":"https://www.nibib.nih.gov/sites/default/files/2020-11/iMAG%20-%20710x230%20_0.jpg"
+  
+          }
+         
+              ],}],
+            data:[{
+              "id":1,
+              "name":"media",
+              "type":"file",
+              "url":"https://media.istockphoto.com/id/1354066820/photo/gavieiro-or-el-silencio-beach-cudillero-asturias-spain.jpg?s=612x612&w=0&k=20&c=X6Q0YT2ay8brfNjAeaK4nUqzyeR9yALH4TCIndsqtOY="
+         
+         
+            },
+           
+          {
+              "id":2,
+              "name":"my app",
+              "type":"folder",
+              "url":"https://www.nibib.nih.gov/sites/default/files/2020-11/iMAG%20-%20710x230%20_0.jpg"
+  
+          }
+         
+              ],}]
+          
+        },
+        {
+          "key": "picture",
+          // "icon": <PictureOutlined />,
+          "label": "Picture",
+          data:[{
+            "id":1,
+            "name":"media",
+            "type":"file",
+            "url":"https://media.istockphoto.com/id/1354066820/photo/gavieiro-or-el-silencio-beach-cudillero-asturias-spain.jpg?s=612x612&w=0&k=20&c=X6Q0YT2ay8brfNjAeaK4nUqzyeR9yALH4TCIndsqtOY="
+       
+       
+          },
+         
+        {
+            "id":2,
+            "name":"my app",
+            "type":"folder",
+            "url":"https://www.nibib.nih.gov/sites/default/files/2020-11/iMAG%20-%20710x230%20_0.jpg"
+
+        }
+       
+            ],
+            // children:[]
+          
+        },
+        {
+          "key": "Files",
+          // "icon": <FileOutlined />,
+          "label": "Files",
+          data:[
+         
+        {
+            "id":2,
+            "name":"my app",
+            "type":"folder",
+            "url":"https://www.nibib.nih.gov/sites/default/files/2020-11/iMAG%20-%20710x230%20_0.jpg"
+
+        }
+       
+            ],
+            // children:[]
+        
+        }
+       
+      ]
+    
